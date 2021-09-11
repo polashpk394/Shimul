@@ -5,7 +5,8 @@ img{
 }
 .myCss {
     background:#0f2540e6;
-    padding-top: 17px;
+    padding-top: 35px;
+    
 }
 
 .location div {
@@ -15,6 +16,11 @@ img{
 .location div i {
     color: #ffaf1e;
     font-size: inherit;
+}
+
+.cv_wrapper {
+    margin: 50px 0px;
+    box-shadow: 8px 0px 0px 0px #dcd0c0, 0px 8px 0px 0px #b1938b, -8px 0px 0px 0px #4e4e56, 0px 0px 0px 8px #da635d, 14px -1px 11px 2px rgb(0 0 0 / 0%);
 }
 
 .icon {
@@ -113,7 +119,8 @@ img{
 .car_obj hr {color: black;width: 70%;height: 2px;}
 .myCssRight {
     background: #eaeaea;
-    
+    padding-top: 20px;
+    padding-bottom: 42px;
 }
 
 .myCssRight p {
@@ -138,7 +145,7 @@ img{
 
 .first_box ul {
     list-style: none;
-    padding-left: inherit;
+    padding-left: 20px;
 }
 
 .first_box ul li {
@@ -201,6 +208,7 @@ ul#work_as {
     width: 100%;
     border: 1px solid black;
     display: flex;
+    margin-bottom: 15px;
 }
 
 .first_boxs {
@@ -242,6 +250,68 @@ ul#work_as {
     letter-spacing: 2px;
     }
 
+    @media only screen and (max-width:600px) {
+
+        .car_obj hr{
+            margin: auto;
+            height: 3px;
+        }
+        .car_obj h2{
+
+            text-align: center;
+        }
+        .car_obj hr {
+            margin-bottom: 20px;
+        }
+        .first_box.bsc p {
+            width: 76%;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+
+        .diploma p {
+            width: 80%;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+
+        .first_box.ssc p {
+            width: 73%;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+
+        .sig_area p {
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .dublicate p {
+            width: 81%;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+
+        .telemarket p {
+            width: 80%;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+
+        .download_cv {
+            width: 124px;
+        }
+        
+        .download_cv a {
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+   
+      
+    }
+
+ 
 
     .title p {
         text-align: center;
@@ -264,4 +334,19 @@ ul#work_as {
     .lang_prof{margin-top:25px}
     .comm_pro{padding: 15px 0px 20px 0px; }
     .selt_app{padding:15px 0px 15px 0px;}
+}
+
+.download_cv {
+    width: 130px;
+    background: #ff5722;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 16px;
+}
+
+.download_cv a {text-align: center;display: block;text-decoration: none;color: white;padding: 10px 15px;}
+.download_cv:hover a {
+    background: black;
+    border-radius: 3px;
+    transition: 0.5s;
 }
