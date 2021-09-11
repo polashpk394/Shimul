@@ -93,6 +93,16 @@ img{
     color: orange;
 }
 
+.photoShimul {
+    width: 73%;
+    margin: auto;
+    padding-top: 20%;
+}
+
+.photoShimul img {
+    background: #dee3e6 url(/im.png) no-repeat scroll 50px 50px;
+    padding: 20px;
+}
 
 .comp_prof {
     margin-bottom: 40px;
@@ -250,66 +260,20 @@ ul#work_as {
     letter-spacing: 2px;
     }
 
-    @media only screen and (max-width:600px) {
+.photoShimul {
+    width: 73%;
+    margin: auto;
+    padding-top: 20%;
+}
 
-        .car_obj hr{
-            margin: auto;
-            height: 3px;
-        }
-        .car_obj h2{
+.photoShimul img {
+    background: #dee3e6 url(/im.png) no-repeat scroll 50px 50px;
+    padding: 20px;
+}
 
-            text-align: center;
-        }
-        .car_obj hr {
-            margin-bottom: 20px;
-        }
-        .first_box.bsc p {
-            width: 76%;
-            margin: auto;
-            margin-bottom: 25px;
-        }
-
-        .diploma p {
-            width: 80%;
-            margin: auto;
-            margin-bottom: 25px;
-        }
-
-        .first_box.ssc p {
-            width: 73%;
-            margin: auto;
-            margin-bottom: 25px;
-        }
-
-        .sig_area p {
-            font-size: 11px;
-            font-weight: 600;
-        }
-
-        .dublicate p {
-            width: 81%;
-            margin: auto;
-            margin-bottom: 25px;
-        }
-
-        .telemarket p {
-            width: 80%;
-            margin: auto;
-            margin-bottom: 25px;
-        }
-
-        .download_cv {
-            width: 124px;
-        }
-        
-        .download_cv a {
-            font-size: 12px;
-            font-weight: 600;
-        }
-
-   
-      
-    }
+.photoShimul {
+    display: none;
+}
 
  
 
@@ -334,6 +298,67 @@ ul#work_as {
     .lang_prof{margin-top:25px}
     .comm_pro{padding: 15px 0px 20px 0px; }
     .selt_app{padding:15px 0px 15px 0px;}
+}
+
+@media only screen and (max-width:600px) {
+
+    .car_obj hr{
+        margin: auto;
+        height: 3px;
+    }
+    .car_obj h2{
+
+        text-align: center;
+    }
+    .car_obj hr {
+        margin-bottom: 20px;
+    }
+    .first_box.bsc p {
+        width: 76%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .diploma p {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .first_box.ssc p {
+        width: 73%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .sig_area p {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .dublicate p {
+        width: 81%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .telemarket p {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .download_cv {
+        width: 124px;
+    }
+    
+    .download_cv a {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+  
 }
 
 .download_cv {
